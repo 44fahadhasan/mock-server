@@ -1,0 +1,22 @@
+{
+  "name": "mock-server",
+  "version": "1.0.0",
+  "description": "A simple mock REST API using json-server",
+  "main": "index.js",
+  "scripts": {
+    "server": "json-server --watch db.json --port 5000",
+    "start": "npm run server"
+  },
+  "keywords": [
+    "mock",
+    "api",
+    "json-server",
+    "rest"
+  ],
+  "author": "Md. Fahad Hasan",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "json-server": "^1.0.0-beta.3"
+  }
+}
